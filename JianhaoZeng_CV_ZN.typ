@@ -77,7 +77,7 @@
 ][
   #text(size: 12pt)[#link("https://ieeexplore.ieee.org/abstract/document/10336823/")[*Fashion Customization: Image Generation Based on Editing Clue*]] \
   Dan Song, #underline()[*Jianhao Zeng*], Min Liu, Xuanya Li, Anan Liu#super[\#] \
-  #emph()[IEEE Transactions on Circuits and Systems for Video Technology, 2023s *(TCSVT)*]
+  #emph()[IEEE Transactions on Circuits and Systems for Video Technology, 2023 *(TCSVT)*]
 ]
 
 

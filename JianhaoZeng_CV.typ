@@ -42,7 +42,7 @@
 #chiline()
 
 #text(size: 12pt)[*Tianjin University* #h(1fr) Tianjin, China] \
-#text(size: 12pt)[M.S. in Electronic and Information Engineering #h(1fr) 2021/09 -- 2024/06] \
+#text(size: 12pt)[M.Eng. in Electronic and Information Engineering #h(1fr) 2021/09 -- 2024/06] \
 #text(size: 12pt)[Advisor: Prof. #link("https://seea.tju.edu.cn/info/1014/1460.htm")[Dan Song]]
 
 #text(size: 12pt)[*Tianjin University* #h(1fr) Tianjin, China] \
@@ -76,7 +76,7 @@
 ][
   #text(size: 12pt)[#link("https://ieeexplore.ieee.org/abstract/document/10336823/")[*Fashion Customization: Image Generation Based on Editing Clue*]] \
   Dan Song, #underline()[*Jianhao Zeng*], Min Liu, Xuanya Li, Anan Liu#super[\#] \
-  #emph()[IEEE Transactions on Circuits and Systems for Video Technology, 2023s *(TCSVT)*]
+  #emph()[IEEE Transactions on Circuits and Systems for Video Technology, 2023 *(TCSVT)*]
 ]
 
 #heading(level: 2)[Experiences]
@@ -84,7 +84,7 @@
 
 #text(size: 12pt)[*Machine Learning Department, AMAP, Alibaba Group* #h(1fr) Beijing, China] \
 #text(size: 12pt)[Algorithm Engineer #h(1fr) 2025/06 -- Current] \
-#text(size: 12pt)[Advisor: Dr. #link("https://allylei.github.io/")[Lei Sun], Dr. #link("https://scholar.google.com/citations?hl=zh-CN&user=Ilx8WNkAAAAJ&view_op=list_works&sortby=pubdate")[Yancheng Bai] and Mr. #link("https://scholar.google.com/citations?hl=zh-CN&user=jn21pUsAAAAJ&view_op=list_works&sortby=pubdate")[Xiangxiang Chu]] \
+#text(size: 12pt)[Mentor: Dr. #link("https://allylei.github.io/")[Lei Sun], Dr. #link("https://scholar.google.com/citations?hl=zh-CN&user=Ilx8WNkAAAAJ&view_op=list_works&sortby=pubdate")[Yancheng Bai] and Mr. #link("https://scholar.google.com/citations?hl=zh-CN&user=jn21pUsAAAAJ&view_op=list_works&sortby=pubdate")[Xiangxiang Chu]] \
 
 
 #text(size: 12pt)[*Laboratory for MAchine Perception and LEarning (MAPLE), Westlake University* #h(1fr) Hangzhou, China] \
