@@ -54,7 +54,7 @@
 
 
 #enum(tight: false)[
-  #text(size: 12pt)[*MEF-GD: Multimodal Enhancement and Fusion Network for Garment Designer*] \
+  #text(size: 12pt)[#link("https://ieeexplore.ieee.org/document/11145096")[*MEF-GD: Multimodal Enhancement and Fusion Network for Garment Designer*]] \
   Dan Song, Juan Zhou, #underline()[*Jianhao Zeng*], Hongshuo Tian, Bolun Zhen, Rongbao Kang, Anan Liu#super[\#] \
   #emph()[IEEE Transactions on Circuits and Systems for Video Technology, 2025 *(TCSVT)*]
 ][
