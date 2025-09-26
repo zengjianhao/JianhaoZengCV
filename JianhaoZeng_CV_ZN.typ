@@ -123,7 +123,7 @@
 #heading(level: 2)[其他经历]
 #chiline()
 
-- #text(size: 12pt)[审稿人: ACM MM（2024），ICLR（2025），NIPS（2025）， TCSVT]
+- #text(size: 12pt)[审稿人: ACM MM（2024），ICLR（2025，2026），NIPS（2025）， TCSVT]
 - #text(size: 12pt)[助教: 数字逻辑电路，天津大学]
 - #text(size: 12pt)[翻译: 基于物理的渲染：从理论到实现，第四版]
 - #text(size: 12pt)[专利: 一种基于自注意力机制的时尚图像编辑方法及装置（CN115082295B）]

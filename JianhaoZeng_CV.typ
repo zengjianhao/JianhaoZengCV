@@ -134,7 +134,7 @@
 #chiline()
 
 #list()[
-  #text(size: 12pt)[*Reviewer*:] ACM MM (2024), ICLR (2025), NIPS (2025), TCSVT
+  #text(size: 12pt)[*Reviewer*:] ACM MM (2024), ICLR (2025, 2026), NIPS (2025), TCSVT
 ][
   #text(size: 12pt)[*Teaching Assistant*:] Digital Logic Circuit, Tianjin University
 ][
