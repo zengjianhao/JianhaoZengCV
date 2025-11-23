@@ -9,6 +9,7 @@
 
 // 设置链接颜色
 #show link: set text(rgb("#4A77AE"))
+#show underline: set text(rgb("4A77AE"))
 
 #set text(
   font: "palatino"
@@ -54,28 +55,40 @@
 
 
 #enum(tight: false)[
+  #text(size: 12pt)[#link("/")[*Eevee: Towards Close-up High-resolution Video-based Virtual Try-on*]] \
+  #underline()[*Jianhao Zeng*]\*, Yancheng Bai\*, Ruidong Chen, Zhang Xuanpu, Lei Sun, Dongyang Jin, Ryan Xu, Nannan Zhang\#, Dan Song, Xiangxiang Chu \
+  #emph()[Under Review]
+][
+  #text(size: 12pt)[#link("https://arxiv.org/pdf/2511.14063")[*Semantic Context Matters: Improving Conditioning for Autoregressive Models*]] \
+  Dongyang Jin\*, Ryan Xu\*\#, #underline()[*Jianhao Zeng*], Rui Lan, Yancheng Bai, Lei Sun, Xiangxiang Chu \
+  #emph()[Under Review]
+][
+  #text(size: 12pt)[#link("https://arxiv.org/abs/2510.24657")[*Group Relative Attention Guidance for Image Editing*]] \
+  Xuanpu Zhang\*, Xuesong Niu\*, Ruidong Chen, Dan Song, #underline()[*Jianhao Zeng*], Penghui Du, Haoxiang Cao, Kai Wu\#, Anan Liu\# \
+  #emph()[Under Review]
+][
   #text(size: 12pt)[#link("https://ieeexplore.ieee.org/document/11145096")[*MEF-GD: Multimodal Enhancement and Fusion Network for Garment Designer*]] \
-  Dan Song, Juan Zhou, #underline()[*Jianhao Zeng*], Hongshuo Tian, Bolun Zhen, Rongbao Kang, Anan Liu#super[\#] \
+  Dan Song, Juan Zhou, #underline()[*Jianhao Zeng*], Hongshuo Tian, Bolun Zhen, Rongbao Kang, Anan Liu\# \
   #emph()[IEEE Transactions on Circuits and Systems for Video Technology, 2025 *(TCSVT)*]
 ][
   #text(size: 12pt)[#link("https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Robust-MVTON_Learning_Cross-Pose_Feature_Alignment_and_Fusion_for_Robust_Multi-View_CVPR_2025_paper.html")[*Robust-MVTON: Learning Cross-Pose Feature Alignment and Fusion for Robust Multi-View Virtual Try-On*]] \
-  Nannan Zhang#super[\*], Yijiang Li#super[\*], Dong Du#super[\#], Zheng Chong, Zhengwentai Sun, #underline()[*Jianhao Zeng*], Yusheng Dai, Zhenyu Xie, Hairui Zhu, Xiaoguang Han#super[\#] \
+  Nannan Zhang\*, Yijiang Li\*, Dong Du\#, Zheng Chong, Zhengwentai Sun, #underline()[*Jianhao Zeng*], Yusheng Dai, Zhenyu Xie, Hairui Zhu, Xiaoguang Han\# \
   #emph()[IEEE/CVF Conference on Computer Vision and Pattern Recognition *(CVPR 2025)*]
 ][
   #text(size: 12pt)[#link("hhttps://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BooW-VTON_Boosting_In-the-Wild_Virtual_Try-On_via_Mask-Free_Pseudo_Data_Training_CVPR_2025_paper.html")[*BooW-VTON: Boosting In-the-Wild Virtual Try-On via Mask-Free Pseudo Data Training*]] \
-  Xuanpu Zhang, Dan Song#super[\#], Pengxin Zhan, Tianyu Chang, #underline()[*Jianhao Zeng*], Qingguo Chen, Weihua Luo, Anan Liu#super[\#] \
+  Xuanpu Zhang, Dan Song\#, Pengxin Zhan, Tianyu Chang, #underline()[*Jianhao Zeng*], Qingguo Chen, Weihua Luo, Anan Liu\# \
   #emph()[IEEE/CVF Conference on Computer Vision and Pattern Recognition *(CVPR 2025)*]
 ][
   #text(size: 12pt)[#link("https://ieeexplore.ieee.org/abstract/document/10811994")[*Better Fit: Accommodate Variations in Clothing Types for Virtual Try-on*]] \
-  Dan Song, Xuanpu Zhang, #underline()[*Jianhao Zeng*], Pengxin Zhan, Qingguo Chen, Weihua Luo, Anan Liu#super[\#] \
+  Dan Song, Xuanpu Zhang, #underline()[*Jianhao Zeng*], Pengxin Zhan, Qingguo Chen, Weihua Luo, Anan Liu\# \
   #emph()[IEEE Transactions on Circuits and Systems for Video Technology, 2024 *(TCSVT)*]
 ][
   #text(size: 12pt)[ #link("http://openaccess.thecvf.com/content/CVPR2024/html/Zeng_CAT-DM_Controllable_Accelerated_Virtual_Try-on_with_Diffusion_Model_CVPR_2024_paper.html")[*CAT-DM: Controllable Accelerated Virtual Try-on with Diffusion Model*]] \
-  #underline()[*Jianhao Zeng*], Dan Song#super[\#], Weizhi Nie, Hongshuo Tian, Tongtong Wang, Anan Liu#super[\#] \
+  #underline()[*Jianhao Zeng*], Dan Song\#, Weizhi Nie, Hongshuo Tian, Tongtong Wang, Anan Liu\# \
   #emph()[IEEE/CVF Conference on Computer Vision and Pattern Recognition *(CVPR 2024)*]
 ][
   #text(size: 12pt)[#link("https://ieeexplore.ieee.org/abstract/document/10336823/")[*Fashion Customization: Image Generation Based on Editing Clue*]] \
-  Dan Song, #underline()[*Jianhao Zeng*], Min Liu, Xuanya Li, Anan Liu#super[\#] \
+  Dan Song, #underline()[*Jianhao Zeng*], Min Liu, Xuanya Li, Anan Liu\# \
   #emph()[IEEE Transactions on Circuits and Systems for Video Technology, 2023 *(TCSVT)*]
 ]
 
@@ -134,7 +147,7 @@
 #chiline()
 
 #list()[
-  #text(size: 12pt)[*Reviewer*:] ACM MM (2024), ICLR (2025, 2026), NIPS (2025), TCSVT
+  #text(size: 12pt)[*Reviewer*:] ACM MM (2024), ICLR (2025, 2026), NIPS (2025), CVPR (2026), TCSVT
 ][
   #text(size: 12pt)[*Teaching Assistant*:] Digital Logic Circuit, Tianjin University
 ][
