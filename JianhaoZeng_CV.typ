@@ -55,17 +55,25 @@
 
 
 #enum(tight: false)[
-  #text(size: 12pt)[#link("/")[*Eevee: Towards Close-up High-resolution Video-based Virtual Try-on*]] \
-  #underline()[*Jianhao Zeng*]\*, Yancheng Bai\*, Ruidong Chen, Xuanpu Zhang, Lei Sun, Dongyang Jin, Ryan Xu, Nannan Zhang\#, Dan Song, Xiangxiang Chu \
-  #emph()[Under Review]
+  #text(size: 12pt)[#link("/")[*Elucidating the SNR-t Bias of Diffusion Probabilistic Models*]] \
+  Meng Yu, Lei Sun, #underline()[*Jianhao Zeng*], Xiangxiang Chu, Kun Zhang\# \
+  #emph()[IEEE/CVF Conference on Computer Vision and Pattern Recognition *(CVPR 2026)*]
 ][
-  #text(size: 12pt)[#link("https://arxiv.org/pdf/2511.14063")[*Semantic Context Matters: Improving Conditioning for Autoregressive Models*]] \
+  #text(size: 12pt)[#link("https://arxiv.org/abs/2511.18957")[*Eevee: Towards Close-up High-resolution Video-based Virtual Try-on*]] \
+  #underline()[*Jianhao Zeng*]\*, Yancheng Bai\*, Ruidong Chen, Xuanpu Zhang, Lei Sun, Dongyang Jin, Ryan Xu, Nannan Zhang\#, Dan Song, Xiangxiang Chu \
+  #emph()[Findings of IEEE/CVF Conference on Computer Vision and Pattern Recognition *(Findings of CVPR 2026)*]
+][
+  #text(size: 12pt)[#link("/")[*Layer-wise Instance Binding for Regional and Occlusion Control in Text-to-Image Diffusion Transformers*]] \
+  Ruidong Chen, Yancheng Bai, Xuanpu Zhang, #underline()[*Jianhao Zeng*], Lanjun Wang, Dan Song, Lei Sun, Xiangxiang Chu, Anan Liu\# \
+  #emph()[IEEE/CVF Conference on Computer Vision and Pattern Recognition *(CVPR 2026)*]
+][
+  #text(size: 12pt)[#link("https://arxiv.org/abs/2511.14063")[*Semantic Context Matters: Improving Conditioning for Autoregressive Models*]] \
   Dongyang Jin\*, Ryan Xu\*\#, #underline()[*Jianhao Zeng*], Rui Lan, Yancheng Bai, Lei Sun, Xiangxiang Chu \
-  #emph()[Under Review]
+  #emph()[IEEE/CVF Conference on Computer Vision and Pattern Recognition *(CVPR 2026)*]
 ][
   #text(size: 12pt)[#link("https://arxiv.org/abs/2510.24657")[*Group Relative Attention Guidance for Image Editing*]] \
   Xuanpu Zhang\*, Xuesong Niu\*, Ruidong Chen, Dan Song, #underline()[*Jianhao Zeng*], Penghui Du, Haoxiang Cao, Kai Wu\#, Anan Liu\# \
-  #emph()[Under Review]
+    #emph()[Findings of IEEE/CVF Conference on Computer Vision and Pattern Recognition *(Findings of CVPR 2026)*]
 ][
   #text(size: 12pt)[#link("https://ieeexplore.ieee.org/document/11145096")[*MEF-GD: Multimodal Enhancement and Fusion Network for Garment Designer*]] \
   Dan Song, Juan Zhou, #underline()[*Jianhao Zeng*], Hongshuo Tian, Bolun Zhen, Rongbao Kang, Anan Liu\# \
