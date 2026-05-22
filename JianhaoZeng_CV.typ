@@ -1,7 +1,7 @@
 // 设置标题大小和颜色
 #show heading.where(
   level: 1,
-): set text(size: 16pt, fill: rgb("#4A77AE"))
+): set text(size: 18pt, fill: rgb("#4A77AE"))
 
 #show heading.where(
   level: 2,
@@ -9,7 +9,6 @@
 
 // 设置链接颜色
 #show link: set text(rgb("#4A77AE"))
-#show underline: set text(rgb("4A77AE"))
 
 // 设置字体
 #set text(
@@ -28,16 +27,19 @@
 #let chiline() = {
   line(length: 100%, stroke: 0.5pt + rgb("#cccccc"))
 }
-
-
-
+#let icon(path) = box(
+  baseline: 2pt,
+  image(path, height: 12pt)
+)
 
 // Heading
 #set align(center)
 #heading(level: 1)[Jianhao Zeng]
 #v(6pt)
 #text(size: 12pt)[
-  jh_zeng\@tju.edu.cn | #link("https://zengjianhao.github.io")[zengjianhao.github.io] | #link("https://scholar.google.com.hk/citations?user=Sh4tLFsAAAAJ&hl=zh-CN")[Google Scholar]
+  #link("mailto:jh_zeng@tju.edu.cn")[#icon("./Icon/Email.svg") #h(2pt) jh_zeng\@tju.edu.cn] |
+  #link("https://zengjianhao.github.io")[#icon("./Icon/Home.svg") #h(2pt)zengjianhao.github.io] |
+  #link("https://scholar.google.com.hk/citations?user=Sh4tLFsAAAAJ&hl=zh-CN")[#icon("./Icon/Scholar.svg") #h(2pt) Google Scholar]
 ]
 #v(6pt)
 
@@ -55,21 +57,20 @@
   [#chiline()],
 )
 *Tianjin University* #h(1fr) Tianjin, China \
-M.Eng. in Electronic and Information Engineering #h(1fr) 2021/09 -- 2024/06 \
-Advisor: Prof. #link("https://seea.tju.edu.cn/info/1014/1460.htm")[Dan Song]
+M.Eng. in Electronic and Information Engineering #h(1fr) 2021/09 -- 2024/06
 
 *Tianjin University* #h(1fr) Tianjin, China \
 B.Eng. in Mechanical Design & Manufacturing and Their Automation #h(1fr) 2017/09 -- 2021/06 \
 
 
 
-// Experiences
+// Experience
 #set align(left)
 #grid(
   columns: (auto, 1fr),
   column-gutter: 8pt,
   align: horizon,
-  [#heading(level: 2)[Experiences]],
+  [#heading(level: 2)[Experience]],
   [#chiline()],
 )
 
@@ -102,21 +103,53 @@ Research topics: image generation and controllable generation
   [#chiline()],
 )
 
+*Lead-author Publications*
+#grid(
+  columns: (28pt, 1fr),
+  column-gutter: 10pt,
+  row-gutter: 0pt,
+  [
+    #box(width: 28pt)[
+      #align(center)[#image("./Icon/Eevee.png", height: 28pt)]
+    ]
+  ],
+  [
+    #link("https://arxiv.org/abs/2511.18957")[*Eevee: Towards Close-up High-resolution Video-based Virtual Try-on*] \
+      #underline()[*Jianhao Zeng*]\*, Yancheng Bai\*, Ruidong Chen, Xuanpu Zhang, Lei Sun, Dongyang Jin, Ryan Xu, Nannan Zhang\#, Dan Song, Xiangxiang Chu \
+      #emph()[*CVPR 2026 (Findings)*]
+  ],
+)
+#grid(
+  columns: (28pt, 1fr),
+  column-gutter: 10pt,
+  row-gutter: 0pt,
+  [
+    #box(width: 28pt)[
+      #align(center)[#image("./Icon/CAT-DM.png", height: 28pt)]
+    ]
+  ],
+  [
+  #link("http://openaccess.thecvf.com/content/CVPR2024/html/Zeng_CAT-DM_Controllable_Accelerated_Virtual_Try-on_with_Diffusion_Model_CVPR_2024_paper.html")[*CAT-DM: Controllable Accelerated Virtual Try-on with Diffusion Model*] \
+  #underline()[*Jianhao Zeng*], Dan Song\#, Weizhi Nie, Hongshuo Tian, Tongtong Wang, Anan Liu\# \
+  #emph()[*CVPR 2024*]
+  ],
+)
+
+
+
+*Collaborative Publications*
+
 #enum(tight: true)[
   #link("https://arxiv.org/abs/2604.16044")[*Elucidating the SNR-t Bias of Diffusion Probabilistic Models*] \
   Meng Yu, Lei Sun, #underline()[*Jianhao Zeng*], Xiangxiang Chu, Kun Zhang\# \
   #emph()[*CVPR 2026*]
 ][
-  #link("https://arxiv.org/abs/2511.18957")[*Eevee: Towards Close-up High-resolution Video-based Virtual Try-on*] \
-  #underline()[*Jianhao Zeng*]\*, Yancheng Bai\*, Ruidong Chen, Xuanpu Zhang, Lei Sun, Dongyang Jin, Ryan Xu, Nannan Zhang\#, Dan Song, Xiangxiang Chu \
-  #emph()[*CVPR 2026 (Findings)*]
+  #link("https://arxiv.org/abs/2511.14063")[*Semantic Context Matters: Improving Conditioning for Autoregressive Models*] \
+  Dongyang Jin\*, Ryan Xu\*, #underline()[*Jianhao Zeng*], Rui Lan, Yancheng Bai\#, Lei Sun\#, Xiangxiang Chu \
+  #emph()[*CVPR 2026*]
 ][
   #link("https://arxiv.org/abs/2603.05769")[*Layer-wise Instance Binding for Regional and Occlusion Control in Text-to-Image Diffusion Transformers*] \
   Ruidong Chen, Yancheng Bai, Xuanpu Zhang, #underline()[*Jianhao Zeng*], Lanjun Wang, Dan Song, Lei Sun, Xiangxiang Chu, Anan Liu\# \
-  #emph()[*CVPR 2026*]
-][
-  #link("https://arxiv.org/abs/2511.14063")[*Semantic Context Matters: Improving Conditioning for Autoregressive Models*] \
-  Dongyang Jin\*, Ryan Xu\*, #underline()[*Jianhao Zeng*], Rui Lan, Yancheng Bai\#, Lei Sun\#, Xiangxiang Chu \
   #emph()[*CVPR 2026*]
 ][
   #link("https://arxiv.org/abs/2510.24657")[*Group Relative Attention Guidance for Image Editing*] \
@@ -138,10 +171,6 @@ Research topics: image generation and controllable generation
   #link("https://ieeexplore.ieee.org/abstract/document/10811994")[*Better Fit: Accommodate Variations in Clothing Types for Virtual Try-on*] \
   Dan Song, Xuanpu Zhang, #underline()[*Jianhao Zeng*], Pengxin Zhan, Qingguo Chen, Weihua Luo, Anan Liu\# \
   #emph()[*TCSVT*]
-][
-  #link("http://openaccess.thecvf.com/content/CVPR2024/html/Zeng_CAT-DM_Controllable_Accelerated_Virtual_Try-on_with_Diffusion_Model_CVPR_2024_paper.html")[*CAT-DM: Controllable Accelerated Virtual Try-on with Diffusion Model*] \
-  #underline()[*Jianhao Zeng*], Dan Song\#, Weizhi Nie, Hongshuo Tian, Tongtong Wang, Anan Liu\# \
-  #emph()[*CVPR 2024*]
 ][
   #link("https://ieeexplore.ieee.org/abstract/document/10336823/")[*Fashion Customization: Image Generation Based on Editing Clue*] \
   Dan Song, #underline()[*Jianhao Zeng*], Min Liu, Xuanya Li, Anan Liu\# \
@@ -215,13 +244,13 @@ Research topics: image generation and controllable generation
 ]
 
 
-// SKills
+// Skills
 #set align(left)
 #grid(
   columns: (auto, 1fr),
   column-gutter: 8pt,
   align: horizon,
-  [#heading(level: 2)[SKills]],
+  [#heading(level: 2)[Skills]],
   [#chiline()],
 )
 #list()[
