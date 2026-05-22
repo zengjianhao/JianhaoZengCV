@@ -25,7 +25,7 @@
 
 // 设置水平线函数，
 #let chiline() = {
-  line(length: 100%, stroke: 0.5pt + rgb("#cccccc"))
+  line(length: 100%, stroke: 0.5pt + rgb("#4A77AE"))
 }
 #let icon(path) = box(
   baseline: 2pt,
@@ -65,6 +65,7 @@ B.Eng. in Mechanical Design & Manufacturing and Their Automation #h(1fr) 2017/09
 
 
 // Experience
+#v(6pt)
 #set align(left)
 #grid(
   columns: (auto, 1fr),
@@ -94,6 +95,7 @@ Research topics: image generation and controllable generation
 
 
 // Publications
+#v(6pt)
 #set align(left)
 #grid(
   columns: (auto, 1fr),
@@ -179,6 +181,7 @@ Research topics: image generation and controllable generation
 
 
 // Services & Activities
+#v(6pt)
 #set align(left)
 #grid(
   columns: (auto, 1fr),
@@ -202,6 +205,7 @@ Research topics: image generation and controllable generation
 
 
 // Awards
+#v(6pt)
 #set align(left)
 #grid(
   columns: (auto, 1fr),
@@ -224,6 +228,7 @@ Research topics: image generation and controllable generation
 
 
 // Competitions
+#v(6pt)
 #set align(left)
 #grid(
   columns: (auto, 1fr),
@@ -245,6 +250,7 @@ Research topics: image generation and controllable generation
 
 
 // Skills
+#v(6pt)
 #set align(left)
 #grid(
   columns: (auto, 1fr),
