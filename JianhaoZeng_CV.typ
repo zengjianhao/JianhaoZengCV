@@ -116,7 +116,7 @@ Research topics: image generation and controllable generation
     ]
   ],
   [
-    #link("https://arxiv.org/abs/2511.18957")[*Eevee: Towards Close-up High-resolution Video-based Virtual Try-on*] \
+    #link("https://openaccess.thecvf.com/content/CVPR2026F/html/Zeng_Eevee_Towards_Close-up_High-resolution_Video-based_Virtual_Try-on_CVPRF_2026_paper.html")[*Eevee: Towards Close-up High-resolution Video-based Virtual Try-on*] \
       #underline()[*Jianhao Zeng*]\*, Yancheng Bai\*, Ruidong Chen, Xuanpu Zhang, Lei Sun, Dongyang Jin, Ryan Xu, Nannan Zhang\#, Dan Song, Xiangxiang Chu \
       #emph()[*CVPR 2026 (Findings)*]
   ],
@@ -142,19 +142,19 @@ Research topics: image generation and controllable generation
 *Collaborative Publications*
 
 #enum(tight: true)[
-  #link("https://arxiv.org/abs/2604.16044")[*Elucidating the SNR-t Bias of Diffusion Probabilistic Models*] \
+  #link("https://openaccess.thecvf.com/content/CVPR2026/html/Yu_Elucidating_the_SNR-t_Bias_of_Diffusion_Probabilistic_Models_CVPR_2026_paper.html")[*Elucidating the SNR-t Bias of Diffusion Probabilistic Models*] \
   Meng Yu, Lei Sun, #underline()[*Jianhao Zeng*], Xiangxiang Chu, Kun Zhang\# \
   #emph()[*CVPR 2026*]
 ][
-  #link("https://arxiv.org/abs/2511.14063")[*Semantic Context Matters: Improving Conditioning for Autoregressive Models*] \
+  #link("https://openaccess.thecvf.com/content/CVPR2026/html/Jin_Semantic_Context_Matters_Improving_Conditioning_for_Autoregressive_Models_CVPR_2026_paper.html")[*Semantic Context Matters: Improving Conditioning for Autoregressive Models*] \
   Dongyang Jin\*, Ryan Xu\*, #underline()[*Jianhao Zeng*], Rui Lan, Yancheng Bai\#, Lei Sun\#, Xiangxiang Chu \
   #emph()[*CVPR 2026*]
 ][
-  #link("https://arxiv.org/abs/2603.05769")[*Layer-wise Instance Binding for Regional and Occlusion Control in Text-to-Image Diffusion Transformers*] \
+  #link("https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Layer-wise_Instance_Binding_for_Regional_and_Occlusion_Control_in_Text-to-Image_CVPR_2026_paper.html")[*Layer-wise Instance Binding for Regional and Occlusion Control in Text-to-Image Diffusion Transformers*] \
   Ruidong Chen, Yancheng Bai, Xuanpu Zhang, #underline()[*Jianhao Zeng*], Lanjun Wang, Dan Song, Lei Sun, Xiangxiang Chu, Anan Liu\# \
   #emph()[*CVPR 2026*]
 ][
-  #link("https://arxiv.org/abs/2510.24657")[*Group Relative Attention Guidance for Image Editing*] \
+  #link("https://openaccess.thecvf.com/content/CVPR2026F/html/Zhang_Group_Relative_Attention_Guidance_for_Image_Editing_CVPRF_2026_paper.html")[*Group Relative Attention Guidance for Image Editing*] \
   Xuanpu Zhang\*, Xuesong Niu\*, Ruidong Chen, Dan Song, #underline()[*Jianhao Zeng*], Penghui Du, Haoxiang Cao, Kai Wu\#, Anan Liu\# \
   #emph()[*CVPR 2026 (Findings)*]
 ][
