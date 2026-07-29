@@ -76,7 +76,7 @@ B.Eng. in Mechanical Design & Manufacturing and Their Automation #h(1fr) 2017/09
 )
 
 *Machine Learning Department, AMAP, Alibaba Group* #h(1fr) Beijing, China \
-Algorithm Engineer #h(1fr) 2025/06 -- Current \
+Algorithm Engineer #h(1fr) 2025/06 -- 2026/08 \
 Mentor: Dr. #link("https://allylei.github.io/")[Lei Sun], Dr. #link("https://scholar.google.com/citations?hl=zh-CN&user=Ilx8WNkAAAAJ&view_op=list_works&sortby=pubdate")[Yancheng Bai] and Mr. #link("https://scholar.google.com/citations?hl=zh-CN&user=jn21pUsAAAAJ&view_op=list_works&sortby=pubdate")[Xiangxiang Chu] \
 Research topics: image/video generation, world models, and autonomous agents
 
@@ -142,6 +142,10 @@ Research topics: image generation and controllable generation
 *Collaborative Publications*
 
 #enum(tight: true)[
+  #link("https://www.researchgate.net/profile/Dongyang-Jin-2/publication/401644219_SCALAR_Efficient_Controllable_Generation_via_Scale-wise_Visual_Autoregressive_Learning/links/69aba1d14c39af26801d135f/SCALAR-Efficient-Controllable-Generation-via-Scale-wise-Visual-Autoregressive-Learning.pdf")[*SCALAR++: Efficient Controllable Generation via Scale-wise Visual Autoregressive Learning*] \
+  Ryan Xu\*, Dongyang Jin\*, Shawn Chen\*, Yancheng Bai\#, Jingzhe Ma, Rui Lan, #underline()[*Jianhao Zeng*], Yunyang Ge, Mingzhe Zheng, Lei Sun, Xiangxiang Chu \
+  #emph()[*IJCV*]
+][
   #link("https://openaccess.thecvf.com/content/CVPR2026/html/Yu_Elucidating_the_SNR-t_Bias_of_Diffusion_Probabilistic_Models_CVPR_2026_paper.html")[*Elucidating the SNR-t Bias of Diffusion Probabilistic Models*] \
   Meng Yu, Lei Sun, #underline()[*Jianhao Zeng*], Xiangxiang Chu, Kun Zhang\# \
   #emph()[*CVPR 2026*]
@@ -192,7 +196,7 @@ Research topics: image generation and controllable generation
 )
 
 #list()[
-  *Reviewer*: ACM MM (2024), ICLR (2025, 2026), NeurIPS (2025, 2026), CVPR (2026), ECCV (2026), TCSVT
+  *Reviewer*: ACM MM (2024), AAAI (2027), ICLR (2025, 2026), NeurIPS (2025, 2026), CVPR (2026), ECCV (2026), TCSVT
 ][
   *Teaching Assistant*: Digital Logic Circuit, Tianjin University
 ][
